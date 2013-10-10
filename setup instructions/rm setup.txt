@@ -1,0 +1,23 @@
+step 1
+in the business hi build
+Error	6	The referenced assembly "C:\SRC\OLB Voyager Upgrade 4.0\Feature\BOLATMDeposit\src\Business\MVVM\Business.UI.Models\bin\Debug\Huntington.OnlineBanking.Business.UI.Models.dll" was not found. If this assembly is produced by another one of your projects, please make sure to build that project before building this one.	HBLTransactionsClasses
+
+step 4
+443 might already be assigned.  if so, we need to edit that assignment and not add a new one
+
+step 5
+i did not need to do this.  database was already created.  also, the (local) instance is no longer used by the VDI devs
+
+step 6
+should connect to your development instance.  also, i did not need to do this.
+
+step 6c
+add "Click on New User"
+
+before step 8
+verify that the RetailAdmin website is associated with the RetailAdmin app pool and the RetailOnline app pool is associated with the Retail site
+
+changed RM and RetailAdmin web.config sessionState sqlConnectionString data source=(local)
+
+step 8
+if you get "A database error occurred." for all the users, then you need to delete one and re-add.

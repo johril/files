@@ -1,0 +1,30 @@
+WIN764OLB10
+
+
+HBIENT\srvvoyagertst
+v0y@g3r!
+
+steps after Ernest's document
+-----------------------------
+0. Add myself as an admin
+1. install VS test pro 2010 and the hotfix rollup (http://connect.microsoft.com/VisualStudio/Downloads/DownloadDetails.aspx?DownloadID=31858)
+1. Restore Common Info
+2. Restore HnbOlbErrorLog
+3. Restore CCLogging
+4. Restore TokenManagement
+5. Restore VoyagerHuntingtonCustom
+5. Remove Retail and ReailAdmin web applications
+5. Remove RetailAdmin app pool
+6. Remove RetailOnline app pool
+7. Add BusinessOnline app pool
+ - Framework Version: 4.0
+ - Identity: hbient\srvvoyagertst, pwd: v0y@g3r!
+ - Ping Enabled: False
+ - Ping Maximum Response Time: 9000
+ - Shutdown Time Limit: 9000
+
+builds
+------
+retail HI
+business UI
+bank admin
